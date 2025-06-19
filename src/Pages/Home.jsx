@@ -20,7 +20,7 @@ const Home = () => {
     <div className='container'>
          <nav className="navbar"> 
             <div className="logo"> 
-                <h2 className="logo-heading">S</h2> 
+                <h2 className="logo-heading">S💻</h2> 
             </div> 
             <div className="menu"> 
                 <ul className="menu-list"> 
