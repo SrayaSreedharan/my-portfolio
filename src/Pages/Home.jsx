@@ -69,7 +69,7 @@ const Home = () => {
             </div>
         </section>
         <div > 
-            <h2 style={{textAlign:'center',fontSize:'35px'}}>My Services</h2> 
+            <h2 style={{textAlign:'center',fontSize:'35px'}}>Services</h2> 
         </div> 
         <section id="service" className="services-content"> 
             <div className="my-row" > 
@@ -77,14 +77,7 @@ const Home = () => {
                     <div className="my-card"> 
                         <h3 className="greet-heading blue-text">Web Design</h3> 
                         <p className="small-para"> 
-                            Web development refers to the creating, 
-                            building, and maintaining 
-                            of websites. It includes aspects such as 
-                            web design, web publishing, 
-                            web programming, and database management. 
-                            It is the creation of an 
-                            application that works over the internet 
-                            i.e. websites. 
+                            Web design encompasses the planning and creation of websites, focusing on the visual layout, user experience, and overall aesthetics
                         </p> 
                     </div> 
                 </div> 
@@ -138,7 +131,7 @@ const Home = () => {
              </div>
         </section>
         <section id="contact" >
-            <h2 style={{ textAlign: 'center' }}>CONTACT ME</h2>
+            <h2 style={{ textAlign: 'center' }}>CONTACT</h2>
             <div style={{ display: 'flex',  justifyContent: 'center',  flexWrap: 'wrap',  gap: '20px',  padding: '20px' }}>
                 <a href="https://github.com/SrayaSreedharan"><img src={git} style={{ height: '40px', borderRadius: '10px' }}/></a>
                 <a href="https://in.linkedin.com/in/sraya-sreedharan-0653a1259"><img src={linkedin} style={{ height: '40px', borderRadius: '10px' }}/></a>
