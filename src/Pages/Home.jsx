@@ -11,13 +11,22 @@ import style from '../Images/stylelab.png'
 import git from '../Images/git icon.png'
 import linkedin from '../Images/linkedin.png'
 import pic from '../Pages/pic.png'
+import Silk from './Silk';
 
 const Home = () => {
 
   return (
     <>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <Silk
+  speed={5}
+  scale={1}
+  color="#7B7481"
+  noiseIntensity={1.5}
+  rotation={0}
+/>
     <div className='container'>
+        
          <nav className="navbar"> 
             <div className="logo"> 
                 <h2 className="logo-heading">Developer💻</h2> 
